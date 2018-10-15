@@ -1,0 +1,350 @@
+body {
+	font-family: 'Noto Serif JP', sans-serif;
+	background: url('../img/Home_library4.jpg') no-repeat center center fixed;
+}
+
+/* logo */
+.logo {
+
+	padding: 10px 10px;
+	border-radius: 30px 0 30px 0;
+	background: rgba(141, 141, 141, 0.835);
+	position: absolute;
+	top: 2rem;
+	left: 3rem;
+}
+
+.logo:before {
+	content: '';
+	position: absolute;
+	background: rgba(230, 230, 230, 0.726);
+	height: 5px;
+	width: 800px;
+	top: 1rem;
+	left: 18rem;
+
+}
+
+.logo:after {
+	content: '';
+	position: absolute;
+	background: rgba(230, 230, 230, 0.726);
+	height: 5px;
+	width: 1000px;
+	top: 0rem;
+	left: 18rem;
+}
+
+/* section 1 */
+
+.home_info {
+	background: url('../img/Home_library1.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	min-height: 100vh;
+}
+
+
+.chamngon {
+	background: rgba(185, 185, 185, 0.212);
+	position: relative;
+	position: absolute;
+	top: 13rem;
+	right: -3rem;
+	color: rgba(255, 255, 255, 0.452);
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	padding: 8rem 2rem;
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	box-shadow: 11px 11px rgba(255, 255, 255, 0.479), -11px -11px rgba(255, 255, 255, 0.438), 11px -11px rgba(255, 255, 255, 0.438), -11px 11px rgba(255, 255, 255, 0.281), -13px -13px rgba(255, 255, 255, 0.281) inset, 13px 13px rgba(255, 255, 255, 0.287) inset;
+
+}
+
+.chamngon:before {
+	padding-top: 7rem;
+	content: 'JUST KIDDING! FOLLOW YOUR WAY!';
+	background: rgba(185, 185, 185, 0.212);
+	position: absolute;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.chamngon:hover {
+	box-shadow: 0px 0px rgba(255, 255, 255, 0.479), 0px 0px rgba(255, 255, 255, 0.438), 0px 0px rgba(255, 255, 255, 0.438), 0px 0px rgba(255, 255, 255, 0.281), 0px 0px rgba(255, 255, 255, 0.281) inset, 0px 0px rgba(255, 255, 255, 0.287) inset;
+	transition: 1s all ease-in-out;
+}
+
+.chamngon:hover:before {
+	top: 0;
+	left: -80%;
+	opacity: 1;
+	transition: 1.5s all ease-in-out;
+}
+
+.sologan {
+	position: absolute;
+	bottom: 8rem;
+	left: 3rem;
+	color: white;
+	background: rgba(185, 185, 185, 0.363);
+	width: 700px;
+	border-radius: 30px 0 30px 0;
+	border-bottom: 5px double rgba(0, 0, 0, 0.363);
+	border-right: 5px double rgba(0, 0, 0, 0.363);
+	text-align: right;
+}
+
+.sologan1 {
+	margin: 2rem 0 0;
+	padding-right: 3rem;
+	color: rgb(255, 255, 255);
+	font-size: 46px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.sologan2 {
+	margin-bottom: 2rem;
+	padding-right: 3rem;
+	color: rgba(255, 255, 255, 0.493);
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+}
+
+/* section2 */
+.home_sevice {
+	background: rgba(255, 255, 255, 0.87);
+	min-height: 50vh;
+}
+
+.khung {
+	border-right: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+.canchinh2 {
+	position: relative;
+	margin-top: 7rem;
+}
+
+.hieuung:hover {
+	color: rgba(0, 66, 63, 0.253);
+	transition: .5s all ease-in-out;
+}
+
+.canchinh2 h3 {
+	position: absolute;
+	bottom: -5rem;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.canchinh2 p {
+	color: rgba(163, 163, 163, 0.815);
+	position: absolute;
+	bottom: -9rem;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+/* section3 */
+.home_slide {
+	min-height: 50vh
+}
+
+
+/* section4 */
+.home_sachhay {
+	background: rgb(149, 149, 149);
+	min-height: 50vh;
+}
+
+.sachbanchay h2 {
+	display: block;
+	background: rgba(255, 255, 255, 0.507);
+	margin-top: 3rem;
+	font-weight: bold;
+	font-size: 36px;
+	padding: 1rem;
+
+}
+
+.canchinh3 {
+	margin: 2rem 4.5rem 5rem 1rem;
+}
+
+.thongtin1 {
+	background: rgba(255, 255, 255, 0.157);
+	margin: 2rem 0rem 5rem 1rem;
+}
+
+.thongtin1 h3 {
+	background: rgba(255, 255, 255, 0.424);
+	margin: 1rem 1rem 1rem 0;
+	padding: .5rem;
+	color: rgb(1, 52, 97);
+	font-size: 26px;
+}
+
+.thongtin1 .chitiet {
+	text-align: right;
+	background: rgba(0, 0, 0, 0.034);
+	margin: 0 -2rem;
+	padding: 1rem;
+}
+
+.thongtin1 h5 {
+	color: rgb(255, 0, 0);
+	background: rgba(187, 187, 187, 0.815);
+	border-radius: 30px;
+	padding: 3px;
+	position: absolute;
+	bottom: 3.5rem;
+	right: 14rem;
+}
+
+.muahang {
+	margin: 8rem 1rem 1rem 0;
+	background: rgb(255, 255, 255);
+	padding: 1rem 3rem;
+	font-size: 18px
+}
+
+.muahang:hover {
+	background: rgb(48, 71, 93);
+	color: white;
+	transition: .5s all ease-in-out;
+}
+
+/* section5 */
+.home_sach {
+	background: rgba(255, 255, 255, 0);
+	min-height: 100vh;
+
+}
+
+.canchinh4 {
+	margin: 4rem
+}
+
+.canchinh4 .sp {
+	background: rgba(70, 100, 105, 0.561);
+	margin: 0 0rem;
+	margin-bottom: 5rem;
+	padding: 1rem;
+
+}
+
+.tieude1 {
+	color: white;
+	background: none;
+
+}
+
+.tieude1:hover {
+	color: rgb(255, 251, 251);
+	background: rgba(255, 255, 255, 0.267);
+	transition: .5s all ease-in-out;
+}
+
+.giatien {
+	color: white;
+}
+
+.box {
+	border: 1px solid rgba(255, 255, 255, 0.315);
+	width: 229px;
+	height: 100px;
+	padding-left: 5px;
+	position: absolute;
+	background: rgba(59, 66, 109, 0.692);
+	bottom: 0;
+	opacity: 0;
+}
+
+.box:hover{
+	opacity: 1;
+	transition: .5s all ease-in-out
+}
+
+/* section6 */
+.home_nxb {
+	background: rgba(255, 255, 255, 0.623);
+	min-height: 20vh;
+
+}
+
+.canchinh5 {
+	margin: 1.5rem 0;
+	text-align: center;
+}
+
+/* section7 */
+.home_lienhe {
+	background: rgb(47, 47, 47);
+	min-height: 30vh;
+	box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.383) inset;
+}
+
+.canchinh6 {
+	margin: 3rem 1rem;
+	background: rgba(255, 255, 255, 0);
+	border: 1px double rgba(0, 0, 0, 0);
+	width: 380px;
+	height: 200px;
+}
+
+.canchinh6 h3 {
+	color: wheat;
+	padding: 3rem 0 0 2rem;
+}
+
+.canchinh6 .noidung {
+	color: white;
+	padding: 1rem;
+}
+
+.hihi {
+	padding: 3px 0 0 2rem;
+}
+
+.canchinh6 .logo1 {
+	position: absolute;
+	bottom: 8rem;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.canchinh6 .dangki {
+	margin: 3rem
+}
+.dangki{
+	position: relative;
+}
+.dangki h2 {
+	color: white;
+}
+.canchinh6 .dangki2{
+	background: white;
+	position: absolute;
+	right: 0.5rem;
+    bottom: -1.5px;	}
+/* footer */
+.home_footer {
+	background: rgba(0, 0, 0, 0.945);
+	min-height: 10vh;
+
+}
+
+.home_footer p {
+	color: rgba(255, 255, 255, 0.411);
+	margin: 2rem;
+	text-align: center;
+}
