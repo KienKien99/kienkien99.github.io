@@ -10,8 +10,8 @@
     padding: 2                      rem;
 }
 .lab1:before{
-    content: 'Em xin lỗi thầy';
-    background: rgba(0, 0, 0, 0.438);
+    content: 'MUA HÀNG';
+    background: rgba(40, 205, 255, 0.438);
     color: white;
     position: absolute;
     width: 200px;
@@ -25,6 +25,7 @@
     opacity: 0;
 }
 .lab1:hover:before{
+    
     opacity: 1;
     transition: .5s all ease-in-out
 }
