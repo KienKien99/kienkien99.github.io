@@ -348,3 +348,8 @@ body {
 	margin: 2rem;
 	text-align: center;
 }
+.home_bando{
+	background: #5e5e61;
+	min-height: 25vh;
+	text-align: right;
+}
